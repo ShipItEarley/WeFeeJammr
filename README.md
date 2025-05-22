@@ -22,26 +22,26 @@ The following libraries must be installed in Arduino IDE:
 
 ## ⚡ Hardware Connections
 
-| ESP8266 Pin | NRF24L01+ Pin | Description |
-|------------|---------------|-------------|
-| D2 (GPIO4) | CE            | Module enable |
-| D4 (GPIO2) | CSN           | Chip select |
-| D5 (GPIO14)| SCK           | Serial clock signal |
-| D7 (GPIO13)| MOSI          | Data output |
-| D6 (GPIO12)| MISO          | Data input |
-| 3.3V       | VCC           | Power supply |
-| GND        | GND           | Ground |
+| ESP8266 Pin | NRF24L01+ Pin | Description         |
+| ----------- | ------------- | ------------------- |
+| D2 (GPIO4)  | CE            | Module enable       |
+| D4 (GPIO2)  | CSN           | Chip select         |
+| D5 (GPIO14) | SCK           | Serial clock signal |
+| D7 (GPIO13) | MOSI          | Data output         |
+| D6 (GPIO12) | MISO          | Data input          |
+| 3.3V        | VCC           | Power supply        |
+| GND         | GND           | Ground              |
 
-| ESP8266 Pin | OLED Pin | Description |
-|------------|---------|-------------|
-| D5 (GPIO14)| SDA     | Serial data line |
-| D6 (GPIO12)| SCL     | Serial clock line |
-| 3.3V       | VCC     | Power supply |
-| GND        | GND     | Ground |
+| ESP8266 Pin | OLED Pin | Description       |
+| ----------- | -------- | ----------------- |
+| D5 (GPIO14) | SDA      | Serial data line  |
+| D6 (GPIO12) | SCL      | Serial clock line |
+| 3.3V        | VCC      | Power supply      |
+| GND         | GND      | Ground            |
 
-| ESP8266 Pin | Button Pin | Description |
-|------------|---------|-------------|
-| D3 (GPIO0) | Button  | User input button |
+| ESP8266 Pin | Button Pin | Description       |
+| ----------- | ---------- | ----------------- |
+| D3 (GPIO0)  | Button     | User input button |
 
 ## 🚀 Setup & Execution
 
@@ -66,14 +66,13 @@ The current mode will be displayed on the OLED screen.
 **Warning:** The nRF24l01 module may become very hot during use. This does not affect operation. But it may overheat your hand :D.
 
 ### Example photos
+
 ![Front side of jammer](https://github.com/system-linux/FazJammer/blob/main/photos/1.jpg?raw=true)
 ![Other side of jammer](https://github.com/system-linux/FazJammer/blob/f7895b19fa5819ae011fccfad6261fd778de5186/photos/2.jpg?raw=true)
 [![Video Aç](https://img.youtube.com/vi/4Mi9WWJwfMw/0.jpg)](https://www.youtube.com/watch?v=4Mi9WWJwfMw)
+
 ## 📜 License & Legal Disclaimer
 
 This project is for **educational purposes only** and unauthorized usage is **illegal**. Please check your country's laws and adhere to ethical guidelines.
 
 ---
-
-**Developer:** [system-linux](https://github.com/system-linux)
-
